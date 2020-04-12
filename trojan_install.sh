@@ -19,7 +19,7 @@ source ~/.bash_profile
 echo $JAVA_HOME
 java -version
 
-wget https://github.com/halo-dev/halo/releases/download/v1.2.0/halo-1.2.0.jar -O halo.jar
+wget https://github.com/halo-dev/halo/releases/download/v1.3.1/halo-1.3.1.jar -O halo.jar
 
 nohup java -jar halo.jar --server.port=80 > halo.out & 
 
@@ -27,7 +27,7 @@ echo 'done'
 
 yum install xz
 
-wget https://github.com/trojan-gfw/trojan/releases/download/v1.14.1/trojan-1.14.1-linux-amd64.tar.xz -O trojan.tar.xz
+wget https://github.com/trojan-gfw/trojan/releases/download/v1.15.1/trojan-1.15.1-linux-amd64.tar.xz -O trojan.tar.xz
 
 xz -d trojan.tar.xz
 
